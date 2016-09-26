@@ -1,0 +1,18 @@
+[package]
+name = "scgl"
+version = "0.1.0"
+authors = ["frede <frederik.glasmachers@tu-dortmund.de>"]
+build = "build.rs"
+
+#[features]
+#default = ["glfw"]
+
+#[dev-dependencies]
+#glfw = "0.9.*"
+
+[build-dependencies]
+gl_generator = "0.5.0"
+
+[dependencies]
+#glfw = { version = "0.9.*", optional = true }
+glfw = { version = "0.9.*" }
